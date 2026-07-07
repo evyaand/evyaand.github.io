@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://evyaand.com/sitemap.xml
