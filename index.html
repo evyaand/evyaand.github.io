@@ -258,11 +258,16 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" as="style" onload="this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"></noscript>
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"></noscript>
+
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"></noscript>
 
     <style>
         :root{
@@ -291,7 +296,7 @@
         header{
             position:relative;
             overflow:visible;
-            display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;padding:1.25rem 5rem 1.25rem 1.25rem;border-radius:var(--radius);background:linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0.35));backdrop-filter:blur(6px);box-shadow:0 6px 18px rgba(16,24,40,0.06);
+            display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;padding:1.25rem 5rem 1.25rem 1.25rem;border-radius:var(--radius);background:linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0.35));box-shadow:0 6px 18px rgba(16,24,40,0.06);
         }
         .avatar{width:84px;height:84px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:24px;flex:0 0 auto;min-width:84px;min-height:84px}
         .avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
@@ -495,9 +500,9 @@
                                         <div id="faq-collapse-5" class="accordion-collapse collapse" aria-labelledby="faq-heading-5">
                                             <div class="accordion-body media-ref">
                                                 <ul class="social-list">
-                                                    <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
-                                                    <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
-                                                    <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+                                                    <li><a href="https://instagram.com/evyaand" target="_blank" rel="noopener">Instagram</a></li>
+                                                    <li><a href="https://facebook.com/evgeni.andreichyk" target="_blank" rel="noopener">Facebook</a></li>
+                                                    <li><a href="https://linkedin.com/in/evyaand" target="_blank" rel="noopener">LinkedIn</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -512,13 +517,13 @@
                 <p class="text-muted">Фотографии и изображения</p>
                 <div class="photo-grid">
                     <div class="photo-card" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="images/Evgeny-Andreichyk.webp" data-photo-title="Фото 1">
-                        <img src="images/Evgeny-Andreichyk.webp" alt="Евгений Андрейчик — во время визита в США ">
+                        <img src="images/Evgeny-Andreichyk.webp" alt="Евгений Андрейчик — во время визита в США " loading="lazy" decoding="async" width="1200" height="800">
                     </div>
                     <div class="photo-card" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="images/Evgeny-Andreichyk_2.webp" data-photo-title="Фото 2">
-                        <img src="images/Evgeny-Andreichyk_2.webp" alt="Евгений Андрейчик — во время визита на Кипр ">
+                        <img src="images/Evgeny-Andreichyk_2.webp" alt="Евгений Андрейчик — во время визита на Кипр " loading="lazy" decoding="async" width="1200" height="800">
                     </div>
                     <div class="photo-card" data-bs-toggle="modal" data-bs-target="#photoModal" data-photo-src="images/Evgeny-Andreichyk_4.webp" data-photo-title="Фото 3">
-                        <img src="images/Evgeny-Andreichyk_4.webp" alt="Евгений Андрейчик — официальный портрет"> ">
+                        <img src="images/Evgeny-Andreichyk_4.webp" alt="Евгений Андрейчик — официальный портрет" loading="lazy" decoding="async" width="1200" height="800">
                     </div>
                 </div>
                 <p class="text-muted mt-3" style="font-size:0.95rem;">Свободное использование разрешено при указании автора — Евгений Андрейчик. Лицензия: CC BY 4.0.</p>
@@ -550,7 +555,7 @@
         </footer>
     </div>
     <!-- Bootstrap JS bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
     <script>
         document.querySelectorAll('.photo-card').forEach(card => {
             card.addEventListener('click', () => {
