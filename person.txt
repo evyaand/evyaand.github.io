@@ -1,0 +1,232 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Person",
+            "@id": "https://evyaand.com/#person",
+            "name": "Евгений Андрейчик",
+            "alternateName": [
+                "Evgeny Andreichyk",
+                "Yauheni Andreichyk",
+                "Yauhen Andreichyk",
+                "Evgeni Andreichyk",
+                "Яўгенiй Андрэйчык",
+                "Яўген Андрэйчык",
+                "יבגני אנדרייצ'יק"
+            ],
+            "url": "https://evyaand.com/",
+            "image": [
+                "https://evyaand.com/images/Evgeny-Andreichyk.png",
+                "https://evyaand.com/images/Evgeny-Andreichyk_2.png",
+                "https://evyaand.com/images/Evgeny-Andreichyk_3.png",
+                "https://evyaand.com/images/Evgeny-Andreichyk_4.png",
+                "https://evyaand.com/images/Evgeny-Andreichyk_5.png"
+            ],
+            "jobTitle": "Медиаменеджер, политический и общественный деятель, специалист в сфере коммуникаций и цифровой дипломатии",
+            "description": "Профессионал в стратегических коммуникациях, связях с общественностью и цифровой дипломатии. Советник по информационной политике, Вице-спикер Координационного совета Беларуси.",
+            "birthDate": "1999-03-22",
+            "birthPlace": {
+                "@type": "Place",
+                "name": "Минск, Беларусь"
+            },
+            "nationality": [
+                { "@type": "Country", "name": "Беларусь" },
+                { "@type": "Country", "name": "Израиль" }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Тель-Авив",
+                "addressCountry": "IL"
+            },
+            "knowsAbout": [
+                "Коммуникации",
+                "Цифровая дипломатия",
+                "Медиаменеджмент",
+                "Публичные связи (PR)",
+                "Стратегическая коммуникация",
+                "Международные отношения",
+                "Информационные технологии",
+                "Кибербезопасность"
+            ],
+            "worksFor": [
+                {
+                    "@type": "EmployeeRole",
+                    "worksFor": {
+                        "@type": "Organization",
+                        "name": "Координационный совет Беларуси"
+                    },
+                    "roleName": "Вице-спикер (IV созыва)",
+                    "startDate": "2026"
+                }
+            ],
+            "affiliation": [
+                {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Bar-Ilan University",
+                    "description": "Master of Business Administration (MBA)"
+                }
+            ],
+            "alumniOf": [
+                {
+                    "@type": "OrganizationRole",
+                    "alumniOf": { "@type": "Organization", "name": "Объединённый переходный кабинет Беларуси" },
+                    "roleName": "Советник по информационной политике",
+                    "startDate": "2023",
+                    "endDate": "2024"
+                },
+                 {
+                    "@type": "OrganizationRole",
+                    "alumniOf": { "@type": "Organization", "name": "National Democratic Institute (NDI)" },
+                    "roleName": "Советник по информационной политике",
+                    "startDate": "2023",
+                    "endDate": "2024"
+                },
+                {
+                    "@type": "OrganizationRole",
+                    "alumniOf": { "@type": "Organization", "name": "CEELI Institute" },
+                    "roleName": "Fellow",
+                    "startDate": "2022-04",
+                    "endDate": "2022-10"
+                },
+                {
+                    "@type": "OrganizationRole",
+                    "alumniOf": { "@type": "Organization", "name": "Фонд солидарности BYSOL" },
+                    "roleName": "Глава отдела коммуникаций",
+                    "startDate": "2020",
+                    "endDate": "2023"
+                },
+                {
+                    "@type": "OrganizationRole",
+                    "alumniOf": { "@type": "Organization", "name": "Voices from Belarus" },
+                    "roleName": "Главный редактор",
+                    "startDate": "2020",
+                    "endDate": "2022"
+                },
+                {
+                    "@type": "OrganizationRole",
+                    "alumniOf": { "@type": "Organization", "name": "Студия La Flame" },
+                    "roleName": "Сооснователь",
+                    "startDate": "2023",
+                    "endDate": "2023"
+                },
+                  { 
+                    "@type": "CollegeOrUniversity", 
+                    "name": "Bar-Ilan University",
+                    "description": "Master of Business Administration (MBA)"
+                },
+                { 
+                    "@type": "CollegeOrUniversity", 
+                    "name": "University of Warsaw",
+                    "description": "Дипломатия"
+                },
+                { 
+                    "@type": "CollegeOrUniversity", 
+                    "name": "Coventry University",
+                    "description": "Европеистика"
+                },
+                { 
+                    "@type": "CollegeOrUniversity", 
+                    "name": "Lazarski University",
+                    "description": "Международные отношения"
+                }
+            ],
+            "sameAs": [
+                "https://www.linkedin.com/in/evyaand",
+                "https://www.instagram.com/evyaand",
+                "https://www.facebook.com/evgeni.andreichyk",
+                "https://www.wikidata.org/wiki/Q134286120"
+            ],
+            "subjectOf": [
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://nashaniva.com/ru/399173",
+                    "headline": "Вторым вице-спикером Координационного совета избрали Евгения Андрейчика"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://racyja.com/by/palityka/druhim-vice-spikeram-kr-abrany-jauhen-andrejcyk/",
+                    "headline": "Другім віцэ-спікерам КР абраны Яўген Андрэйчык"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://belsat.eu/94175295/drugi-vice-spiker-kr",
+                    "headline": "Абраны другі віцэ-спікер Каардынацыйнай рады IV склікання"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://reform.news/en/yauhen-andreichyk-elected-second-vice-speaker-of-the-coordination-council",
+                    "headline": "Yauhen Andreichyk Elected Second Vice Speaker of the Coordination Council"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://racyja.com/by/hramadstva/vazna-kab-palityki-stavili-perad-saboj-adekvatnyja-mety/",
+                    "headline": "Важна, каб палітыкі ставілі перад сабой адэкватныя мэты"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://myfin.by/article/zhizn/zapisatsa-na-podacu-dokumentov-v-vizovyj-centr-teper-mozno-bez-posrednikov",
+                    "headline": "Как сделать польскую визу без посредников"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://www.cbc.ca/radio/thecurrent/the-current-for-nov-10-2021-1.6243906/wednesday-november-10-2021-full-transcript-1.6245017",
+                    "headline": "Thousands of migrants stuck in the middle of Poland-Belarus border crisis"
+                }, 
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://www.polskieradio.pl/396/7816/artykul/3517403,%D0%B0%D0%B1%D1%8F%D0%B4%D0%B0%D0%BD%D1%8B-%D0%BF%D0%B5%D1%80%D0%B0%D1%85%D0%BE%D0%B4%D0%BD%D1%8B-%D0%BA%D0%B0%D0%B1%D1%96%D0%BD%D0%B5%D1%82-%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%96-%D1%85%D0%BE%D1%87%D1%83%D1%86%D1%8C-%D0%BF%D1%80%D1%8B%D0%B7%D0%BD%D0%B0%D1%86%D1%8C-%C2%AB%D1%82%D1%8D%D1%80%D0%B0%D1%80%D1%8B%D1%81%D1%82%D1%8B%D1%87%D0%BD%D0%B0%D0%B9-%D0%B0%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%8B%D1%8F%D0%B9%C2%BB",
+                    "headline": "Аб'яднаны пераходны кабінет Беларусі хочуць прызнаць «тэрарыстычнай арганізацыяй»"
+                }, 
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://reform.news/mural-posvjashhennyj-pochobutu-beljackomu-i-rabkovoj-pojavitsja-v-polshe",
+                    "headline": "Мурал, посвященный Почобуту, Беляцкому и Рабковой, появится в Польше"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://www.tagesspiegel.de/plus/machtprobe-an-der-eu-aussengrenze-expertin-warnt-vor-nato-bundnisfall-im-konflikt-mit-belarus-306319.html",
+                    "headline": "Er möchte, dass EU-Vertreter ihn um Hilfe bitten“ : Was hat Lukaschenko an der Grenze vor?"
+                }, 
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://www.elcorreo.com/internacional/europa/bielorrusia-vota-sin-oposicion-llama-boicotear-elecciones-20240224204748-ntrc.html",
+                    "headline": "Bielorrusia acude a votar sin rastro de la oposición, que llama a boicotear las elecciones"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://ru.belsat.eu/80952347/kgb-trebuet-vykup-za-pozhertvovaniya-fondam-solidarnosti-sprosili-bysol-kak-mogut-vychislit-i-chto-delat",
+                    "headline": "КГБ требует выкуп за пожертвования фондам солидарности? Спросили BYSOL, как могут вычислить и что делать"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://nashaniva.com/en/399173",
+                    "headline": "Yauhen Andreichyk Elected Second Vice-Speaker of the Coordination Council"
+                },  
+                {
+                    "@type": "NewsArticle",
+                    "url": "https://ex-press.live/rubrics/tutak/2023/12/29/voploshhajte-svoi-idei-v-realnost-vy-dostojny-etogo-kak-belarusy-otkryli-studiyu-rastyazhki-i-jogi-v-centre-varshavy",
+                    "headline": "«Воплощайте свои идеи в реальность! Вы достойны этого». Как беларусы открыли студию растяжки и йоги в центре Варшавы"
+                }
+            ]
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://evyaand.com/#webpage",
+            "url": "https://evyaand.com/",
+            "name": "Евгений Андрейчик — Медиаменеджер и специалист по коммуникациям",
+            "description": "Евгений Андрейчик — медиаменеджер, специалист в сфере коммуникаций и международных отношениях",
+            "inLanguage": "ru",
+            "isPartOf": {"@id": "https://evyaand.com/#website"},
+            "mainEntity": {"@id": "https://evyaand.com/#person"}
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://evyaand.com/#website",
+            "url": "https://evyaand.com/",
+            "name": "Евгений Андрейчик — Медиаменеджер и специалист по коммуникациям",
+            "description": "Евгений Андрейчик — медиаменеджер, специалист в сфере коммуникаций и международных отношений"
+        }
+    ]
+}
+</script>
