@@ -311,7 +311,7 @@
 <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap" rel="stylesheet"/></noscript>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect">
 <link crossorigin="" href="https://cdnjs.cloudflare.com" rel="preconnect">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" onload="this.rel='stylesheet'" rel="preload">
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/></noscript>
 <link as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.rel='stylesheet'" rel="preload">
 <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/></noscript>
@@ -399,6 +399,10 @@
         .photo-card::after{content:'Open';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:rgba(15,23,42,0.72);color:#fff;padding:0.55rem 0.95rem;border-radius:999px;opacity:0;transition:opacity .2s ease}
         .photo-card:hover::after{opacity:1}
         .photo-grid .photo-card{min-height:190px}
+
+        .photo-grid{width:100%;max-width:100%;overflow:hidden}
+        .photo-card{min-width:0;max-width:100%}
+        .photo-card img{max-width:100%;min-width:0}
         .photo-caption{margin-top:0.75rem;font-size:0.95rem;color:var(--muted)}
         .social-list{list-style:none;margin:0;padding:0}
         .social-list li{margin-bottom:0.6rem}
@@ -413,6 +417,10 @@
             .avatar{width:64px;height:64px;font-size:20px;flex:0 0 auto;min-width:64px;min-height:64px}
             .intro{width:100%}
             .lang-switch{position:absolute;top:1.25rem;right:1.25rem}
+
+            .photo-grid{grid-template-columns:repeat(3,minmax(0,1fr));width:100%;max-width:100%;gap:0.9rem}
+            .photo-card{width:100%;min-width:0;max-width:100%;overflow:hidden}
+            .photo-card img{width:100%;max-width:100%;height:100%;object-fit:cover}
             nav{flex-wrap:wrap;gap:0.4rem}
             .nav-link{font-size:0.85rem;padding:8px 11px}
         }
@@ -540,13 +548,13 @@
 <p class="text-muted">Photos and images</p>
 <div class="photo-grid">
 <div class="photo-card" data-bs-target="#photoModal" data-bs-toggle="modal" data-photo-src="../images/Evgeny-Andreichyk.webp" data-photo-title="Evgeny Andreichyk during a visit to the United States">
-<img alt="Evgeny Andreichyk during a visit to the United States" decoding="async" fetchpriority="low" height="480" loading="lazy" sizes="(max-width: 880px) 30vw, 310px" src="../images/Evgeny-Andreichyk-thumb-360.webp" srcset="../images/Evgeny-Andreichyk-thumb-360.webp 360w, ../images/Evgeny-Andreichyk-thumb-720.webp 720w, ../images/Evgeny-Andreichyk-thumb-1080.webp 1080w, ../images/Evgeny-Andreichyk.webp 3000w" width="360"/>
+<img alt="Evgeny Andreichyk during a visit to the United States" decoding="async" fetchpriority="low" height="800" loading="lazy" sizes="(max-width: 880px) 30vw, 310px" src="../images/Evgeny-Andreichyk-thumb-360.webp" srcset="../images/Evgeny-Andreichyk-thumb-360.webp 360w, ../images/Evgeny-Andreichyk-thumb-720.webp 720w, ../images/Evgeny-Andreichyk-thumb-1080.webp 1080w, ../images/Evgeny-Andreichyk.webp 3000w" width="1200"/>
 </div>
 <div class="photo-card" data-bs-target="#photoModal" data-bs-toggle="modal" data-photo-src="../images/Evgeny-Andreichyk_2.webp" data-photo-title="Evgeny Andreichyk during a visit to Cyprus">
-<img alt="Evgeny Andreichyk during a visit to Cyprus" decoding="async" fetchpriority="low" height="480" loading="lazy" sizes="(max-width: 880px) 30vw, 310px" src="../images/Evgeny-Andreichyk_2-thumb-360.webp" srcset="../images/Evgeny-Andreichyk_2-thumb-360.webp 360w, ../images/Evgeny-Andreichyk_2-thumb-720.webp 720w, ../images/Evgeny-Andreichyk_2-thumb-1080.webp 1080w, ../images/Evgeny-Andreichyk_2.webp 1179w" width="360"/>
+<img alt="Evgeny Andreichyk during a visit to Cyprus" decoding="async" fetchpriority="low" height="800" loading="lazy" sizes="(max-width: 880px) 30vw, 310px" src="../images/Evgeny-Andreichyk_2-thumb-360.webp" srcset="../images/Evgeny-Andreichyk_2-thumb-360.webp 360w, ../images/Evgeny-Andreichyk_2-thumb-720.webp 720w, ../images/Evgeny-Andreichyk_2-thumb-1080.webp 1080w, ../images/Evgeny-Andreichyk_2.webp 1179w" width="1200"/>
 </div>
 <div class="photo-card" data-bs-target="#photoModal" data-bs-toggle="modal" data-photo-src="../images/Evgeny-Andreichyk_4.webp" data-photo-title="Official portrait of Evgeny Andreichyk">
-<img alt="Official portrait of Evgeny Andreichyk" decoding="async" fetchpriority="low" height="480" loading="lazy" sizes="(max-width: 880px) 30vw, 310px" src="../images/Evgeny-Andreichyk_4-thumb-360.webp" srcset="../images/Evgeny-Andreichyk_4-thumb-360.webp 360w, ../images/Evgeny-Andreichyk_4-thumb-720.webp 720w, ../images/Evgeny-Andreichyk_4-thumb-1080.webp 1080w, ../images/Evgeny-Andreichyk_4.webp 2017w" width="360"/>
+<img alt="Official portrait of Evgeny Andreichyk" decoding="async" fetchpriority="low" height="800" loading="lazy" sizes="(max-width: 880px) 30vw, 310px" src="../images/Evgeny-Andreichyk_4-thumb-360.webp" srcset="../images/Evgeny-Andreichyk_4-thumb-360.webp 360w, ../images/Evgeny-Andreichyk_4-thumb-720.webp 720w, ../images/Evgeny-Andreichyk_4-thumb-1080.webp 1080w, ../images/Evgeny-Andreichyk_4.webp 2017w" width="1200"/>
 </div>
 </div>
 <p class="text-muted mt-3" style="font-size:0.95rem;">Free use is permitted with attribution to Evgeny Andreichyk. License: CC BY 4.0.</p>
