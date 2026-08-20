@@ -693,6 +693,35 @@ h1 {
   }
 }
 
+/* For images same size @media (min-width: 981px) {
+
+  .about-explore-view .about-story {
+    max-width: 1160px;
+    grid-template-columns: minmax(380px, 620px) minmax(280px, 480px);
+  }
+
+  .about-explore-view .about-index-figure img {
+    aspect-ratio: 5 / 4;
+  }
+
+
+  .about-explore-view .about-story:nth-of-type(2) {
+    grid-template-columns: minmax(280px, 480px) minmax(380px, 620px);
+  }
+
+  .about-explore-view .about-story:nth-of-type(2) .about-index-copy {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .about-explore-view .about-story:nth-of-type(2) .about-index-figure {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+ */
+
+
 
 /* Second Explore block */
 
