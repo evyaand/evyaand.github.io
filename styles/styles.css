@@ -477,7 +477,7 @@ h1 {
 .site-frame {
   display: flex;
   min-height: 0;
-  padding: 22px;
+  padding: 0;
   flex-direction: column;
   background: #fff;
 }
@@ -489,7 +489,7 @@ h1 {
   overflow: hidden;
   flex: 1;
   flex-direction: column;
-  border: 1px solid #ededed;
+  border: 0;
   background: #fff;
 }
 
