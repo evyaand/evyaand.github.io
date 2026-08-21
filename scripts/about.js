@@ -2473,8 +2473,8 @@ const lede =
     "#view-lede"
   );
 
-const navigation =
-  document.querySelector(
+const navigations =
+  document.querySelectorAll(
     ".about-section-nav"
   );
 
@@ -2491,28 +2491,32 @@ function showView(view) {
   lede.textContent =
     copy.lede;
 
-  navigation
-    .querySelectorAll(
-      "button[data-view]"
-    )
-    .forEach(
-      (button) => {
-        const active =
-          button.dataset
-            .view ===
-          view;
+  navigations.forEach(
+    (navigation) => {
+      navigation
+        .querySelectorAll(
+          "button[data-view]"
+        )
+        .forEach(
+          (button) => {
+            const active =
+              button.dataset
+                .view ===
+              view;
 
-        button.classList.toggle(
-          "is-active",
-          active
-        );
+            button.classList.toggle(
+              "is-active",
+              active
+            );
 
-        button.setAttribute(
-          "aria-pressed",
-          String(active)
+            button.setAttribute(
+              "aria-pressed",
+              String(active)
+            );
+          }
         );
-      }
-    );
+    }
+  );
 
   if (
     view === "explore"
@@ -2529,7 +2533,9 @@ function showView(view) {
       aboutView
     );
 
-    window.dataLayer = window.dataLayer || [];
+    window.dataLayer =
+      window.dataLayer || [];
+
     window.dataLayer.push({
       event: "nodes_section_view"
     });
@@ -2556,38 +2562,42 @@ function getViewFromHash() {
     : "explore";
 }
 
-navigation.addEventListener(
-  "click",
-  (event) => {
-    const button =
-      event.target.closest(
-        "button[data-view]"
-      );
+navigations.forEach(
+  (navigation) => {
+    navigation.addEventListener(
+      "click",
+      (event) => {
+        const button =
+          event.target.closest(
+            "button[data-view]"
+          );
 
-    if (!button) {
-      return;
-    }
+        if (!button) {
+          return;
+        }
 
-    const view =
-      button.dataset.view;
+        const view =
+          button.dataset.view;
 
-    if (
-      view === "explore"
-    ) {
-      history.pushState(
-        null,
-        "",
-        window.location.pathname
-      );
-    } else {
-      history.pushState(
-        null,
-        "",
-        `#${view}`
-      );
-    }
+        if (
+          view === "explore"
+        ) {
+          history.pushState(
+            null,
+            "",
+            window.location.pathname
+          );
+        } else {
+          history.pushState(
+            null,
+            "",
+            `#${view}`
+          );
+        }
 
-    showView(view);
+        showView(view);
+      }
+    );
   }
 );
 
