@@ -1925,6 +1925,12 @@ function renderNodes(
         node.dataset
           .entryId;
 
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "node_click",
+        node_name: id
+      });
+
       const expandable =
         hasChildren(id);
 
@@ -2522,6 +2528,11 @@ function showView(view) {
     renderNodes(
       aboutView
     );
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "nodes_section_view"
+    });
   }
 
   if (
