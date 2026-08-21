@@ -1,54 +1,3 @@
-const EXPLORE_ENTRY = {
-  id: "minsk",
-  label: "Minsk",
-  meta: "basics",
-  title: "What matters",
-  text: `I’m interested in how emerging technologies can improve the way we work with information and communicate it to people.
-
-What excites me most is using these technologies to create new approaches and tools that can change how things are done across very different fields.`,
-  x: 18,
-  y: 22,
-  images: [
-    {
-      src: "Evgeny-Andreichyk-In-Yafo-Tel-Aviv.png",
-      alt: "Portrait of Evgeny Andreichyk in Yafo old town, Tel Aviv.",
-      className: "about-image-portrait",
-      credit: "Artiom Kulikovsky",
-      creditUrl: "",
-    },
-
-    /*
-    {
-      src: "public-work-2024.webp",
-      alt: "Evgeny Andreichyk during his public work in 2024",
-      className: "about-image-archive",
-      credit: "Spacejamcreation / Wikimedia Commons · CC BY-SA 4.0",
-      creditUrl:
-        "https://commons.wikimedia.org/wiki/File:Yauheni_Andreichyk_UTC_Belarus.png",
-    },
-    */
-  ],
-};
-
-const EXPLORE_ENTRY_2 = {
-  id: "explore-second",
-  label: "",
-  meta: "big data",
-  title: "working with complexity",
-  text: `A big part of that is understanding how technology can help process large amounts of complex information, identify what matters, and transform it into clear, useful information tailored to individual contexts.
-
-The same basic questions can matter at very different scales, from everyday personal decisions to processes that shape societies, countries and entire regions.`,
-  images: [
-    {
-      src: "Evgeny-Andreichyk-At-Google.webp",
-      alt: "Evgeny Andreichyk at Google in Vilnius, Lithuania",
-      className: "about-image-archive",
-      credit: "Evgeny Andreichyk / Personal archive",
-      creditUrl: "",
-    },
-  ],
-};
-
 const INDEX_ENTRIES = [
   {
     id: "statute-of-liberty",
@@ -65,24 +14,21 @@ Going up isn’t particularly difficult. Going back down seemed to be a differen
     images: [
       {
         src: "evgeny-andreichyk-inside-statue-of-liberty.webp",
-        alt:
-          "Evgeny Andreichyk inside the crown of the Statue of Liberty, New York, United States.",
+        alt: "Evgeny Andreichyk inside the crown of the Statue of Liberty, New York, United States.",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
       },
       {
         src: "statue-of-liberty-steps.webp",
-        alt:
-          "Sign with information leading to crown of the Statue of Liberty inside",
+        alt: "Sign with information leading to crown of the Statue of Liberty inside",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
       },
       {
         src: "evgeny-andreichyk-statue-of-liberty.webp",
-        alt:
-          "Evgeny Andreichyk on a boat near the Statue of Liberty, New York, United States.",
+        alt: "Evgeny Andreichyk on a boat near the Statue of Liberty, New York, United States.",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
@@ -97,13 +43,11 @@ Going up isn’t particularly difficult. Going back down seemed to be a differen
     title: "The sound",
     text: `In Israel, we receive missile alerts on our phones. They come with a horrible system sound that, fortunately, many people have never had to hear.
 
-    It can go off at any time, day or night. You never know when it will happen, but you know exactly that you don’t have much time to reach a place that can protect you from a missile strike.
+It can go off at any time, day or night. You never know when it will happen, but you know exactly that you don’t have much time to reach a place that can protect you from a missile strike.
 
-    A missile can destroy entire blocks.
+A missile can destroy entire blocks.
 
-    Living with that feeling changes the way you look at a lot of things. I can guarantee that.`,
-
-
+Living with that feeling changes the way you look at a lot of things. I can guarantee that.`,
     x: 26,
     y: 11,
     images: [
@@ -112,24 +56,21 @@ Going up isn’t particularly difficult. Going back down seemed to be a differen
         alt: "Rocket and missile notification alert on apple watch in Tel Aviv, Israel",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
-        creditUrl:
-          "",
+        creditUrl: "",
       },
       {
         src: "Evgeny-Andreichyk-With-A-Dog.webp",
         alt: "Evgeny Andreichyk with a dog inside underground parking in Tel Aviv, Israel",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
-        creditUrl:
-          "",
+        creditUrl: "",
       },
       {
         src: "Red-alert-tel-aviv.webp",
         alt: "Screenshot of red alert notification on iPhone in Tel Aviv, Israel",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
-        creditUrl:
-          "",
+        creditUrl: "",
       },
     ],
   },
@@ -206,10 +147,7 @@ Everything that manages to exist in a desert is an incredible example of adaptat
     title: "I could stay in the water.",
     text: `I’ve been swimming since I was a child. I like being in the water and simply being near it.
 
-I’m also fascinated by the way the underwater world works. As a child, I seriously considered becoming a marine biologist. At the time, a friend and I would catch fish in a lake and then release them into the pond in my yard.
-`,
-
-
+I’m also fascinated by the way the underwater world works. As a child, I seriously considered becoming a marine biologist. At the time, a friend and I would catch fish in a lake and then release them into the pond in my yard.`,
     x: 67,
     y: 28,
     images: [
@@ -225,32 +163,28 @@ I’m also fascinated by the way the underwater world works. As a child, I serio
         alt: "Sea Sunset in Tel Aviv, Israel",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
-        creditUrl:
-          "",
+        creditUrl: "",
       },
       {
         src: "Jellyfish-Tel-Aviv.webp",
         alt: "Blue jellyfish in the Mediterranean Sea near Tel Aviv, Israel",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
-        creditUrl:
-          "",
+        creditUrl: "",
       },
       {
         src: "Evgeny-Andreichyk-Sea.webp",
         alt: "Evgeny Andreichyk in Italy, swimming in the Adriatic Sea",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
-        creditUrl:
-          "",
+        creditUrl: "",
       },
       {
         src: "Sea-Sunset-Eilat.webp",
         alt: "Sea Sunset in Eilat, Israel",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
-        creditUrl:
-          "",
+        creditUrl: "",
       },
     ],
   },
@@ -263,23 +197,19 @@ I’m also fascinated by the way the underwater world works. As a child, I serio
     text: `I studied at the Diplomatic Academy of Vienna. The Academy itself has a very particular atmosphere, and so does Vienna.
 
 I think the city is especially beautiful in winter. And the parties in student residences there are usually more fun than the ones you see in films.`,
-
-
     x: 43,
     y: 29,
     images: [
       {
         src: "diplomatic-academy-evgeny-andreichyk-diploma.webp",
-        alt:
-          "Evgeny Andreichyk with his diploma from the Diplomatic Academy in Vienna",
+        alt: "Evgeny Andreichyk with his diploma from the Diplomatic Academy in Vienna",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
       },
       {
         src: "diplomatic-academy-dorm.webp",
-        alt:
-          "Evgeny Andreichyk with students in the dormitory of the Diplomatic Academy in Vienna",
+        alt: "Evgeny Andreichyk with students in the dormitory of the Diplomatic Academy in Vienna",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
@@ -314,16 +244,14 @@ But this kind of work has also made me notice something again and again: differe
     images: [
       {
         src: "evgeny-andreichyk-official-visit-riga-latvia.webp",
-        alt:
-          "Evgeny Andreichyk during an official visit in Riga, Latvia. Meeting with the President of Latvia",
+        alt: "Evgeny Andreichyk during an official visit in Riga, Latvia. Meeting with the President of Latvia",
         className: "about-image-portrait",
         credit: "Ministry of Foreign Affairs of Latvia",
         creditUrl: "",
       },
       {
         src: "foreign-affairs-belweder-warsaw.webp",
-        alt:
-          "Flags of Poland and European Union inside the Belweder Palace in Warsaw, Poland",
+        alt: "Flags of Poland and European Union inside the Belweder Palace in Warsaw, Poland",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
@@ -337,24 +265,21 @@ But this kind of work has also made me notice something again and again: differe
       },
       {
         src: "three.webp",
-        alt:
-          "Evgeny Andreichyk with two colleagues during a presidential reception in Warsaw, Poland. Belweder Palace",
+        alt: "Evgeny Andreichyk with two colleagues during a presidential reception in Warsaw, Poland. Belweder Palace",
         className: "about-image-portrait",
         credit: "Unknown photographer / Personal archive",
         creditUrl: "",
       },
       {
         src: "eurovision-debate.webp",
-        alt:
-          "Preparation for Eurovision debate in the European Parliament in Brussels, Belgium",
+        alt: "Preparation for Eurovision debate in the European Parliament in Brussels, Belgium",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
       },
       {
         src: "bages.webp",
-        alt:
-          "Bages of Evgeny Andreichyk used for participation in official events and meetings",
+        alt: "Bages of Evgeny Andreichyk used for participation in official events and meetings",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
@@ -389,8 +314,7 @@ I like how moving around gives me space to think more calmly than I usually can 
     label: "Yom Kippur",
     meta: "Israel · Yom Kippur · Tel Aviv",
     title: "Yom Kippur",
-    text:
-      `Is there anything quite like the atmosphere of a city on a day when there isn’t a single car on the road?
+    text: `Is there anything quite like the atmosphere of a city on a day when there isn’t a single car on the road?
 
 Before Yom Kippur, a person has ten days to influence the judgement that will be written into the Book of Life. You don’t know what has been written for you, but you are given a chance to change the judgement for the better.
 
@@ -403,8 +327,7 @@ I think that is a good opportunity`,
         alt: "Evgeny Andreichyk during Yom Kippur in Tel Aviv",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
-        creditUrl:
-          "",
+        creditUrl: "",
       },
     ],
   },
@@ -424,8 +347,7 @@ I really like Coca-Cola. Most of the time, I drink Zero`,
     images: [
       {
         src: "evgeny-andreichyk-diner-cola.png",
-        alt:
-          "Evgeny Andreichyk drinking Coca-Cola at a diner in New York, United States",
+        alt: "Evgeny Andreichyk drinking Coca-Cola at a diner in New York, United States",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk",
         creditUrl: "",
@@ -454,8 +376,7 @@ But there is something about being at the top of the hill where Griffith Observa
       },
       {
         src: "evgeny-andeichyk-griffith-observatory-california.webp",
-        alt:
-          "Evgeny Andreichyk at Griffith Observatory in Los Angeles, California",
+        alt: "Evgeny Andreichyk at Griffith Observatory in Los Angeles, California",
         className: "about-image-archive",
         credit: "Evgeny Andreichyk / Personal archive",
         creditUrl: "",
@@ -542,7 +463,6 @@ They took some honey, and plenty of money,<br>
 Wrapped up in a five-pound note.
 
 By the way, I like the Cheshire Cheese pub on Northumberland Alley in London. And I first saw Big Ben long before I ever came to London — in my English classes at primary school.`,
-
     x: 34,
     y: 96,
     images: [
@@ -634,8 +554,7 @@ const ORIGIN_REGIONS = [
     qualifier: "Eastern Europe",
     value: 34.1,
     color: "#ff765f",
-    note:
-      "The largest component in the estimate, associated with Ashkenazi Jewish reference populations across Eastern Europe.",
+    note: "The largest component in the estimate, associated with Ashkenazi Jewish reference populations across Eastern Europe.",
   },
   {
     id: "eastern-europe",
@@ -643,8 +562,7 @@ const ORIGIN_REGIONS = [
     qualifier: "Central & Eastern Europe",
     value: 30.2,
     color: "#a8d959",
-    note:
-      "A broad regional component spanning reference populations across Central and Eastern Europe.",
+    note: "A broad regional component spanning reference populations across Central and Eastern Europe.",
   },
   {
     id: "baltic",
@@ -652,8 +570,7 @@ const ORIGIN_REGIONS = [
     qualifier: "The Baltic region",
     value: 28.0,
     color: "#39b9ca",
-    note:
-      "A substantial Baltic component connected to reference populations around Lithuania, Latvia and the wider Baltic region.",
+    note: "A substantial Baltic component connected to reference populations around Lithuania, Latvia and the wider Baltic region.",
   },
   {
     id: "balkan",
@@ -661,8 +578,7 @@ const ORIGIN_REGIONS = [
     qualifier: "Southeastern Europe",
     value: 7.7,
     color: "#f0ce35",
-    note:
-      "A smaller component associated with reference populations in Southeastern Europe and the Balkans.",
+    note: "A smaller component associated with reference populations in Southeastern Europe and the Balkans.",
   },
 ];
 
@@ -670,8 +586,7 @@ const VIEW_COPY = {
   explore: {
     eyebrow: "01 / Explore",
     title: "about me; in short",
-    lede:
-      "A short overview of the ideas and questions that shape my interests and work.",
+    lede: "A short overview of the ideas and questions that shape my interests and work.",
   },
 
   nodes: {
@@ -683,36 +598,12 @@ const VIEW_COPY = {
   origins: {
     eyebrow: "03 / Origins",
     title: "lines of (my) origin",
-    lede:
-      "My DNA estimate is another way of looking at my family history and the paths that eventually led to me.",
+    lede: "My DNA estimate is another way of looking at my family history and the paths that eventually led to me.",
   },
 };
 
 const GRAPH_WIDTH_SCALE = 1.32;
 const GRAPH_HEIGHT_SCALE = 1.24;
-
-function portraitImage() {
-  return {
-    src: "portrait-2026.webp",
-    alt: "Portrait of Evgeny Andreichyk",
-    className: "about-image-portrait",
-    credit: "Evgeny Andreichyk / Wikimedia Commons · CC BY 4.0",
-    creditUrl:
-      "https://commons.wikimedia.org/wiki/File:Evgeny-Andreichyk.webp",
-  };
-}
-
-function publicWorkImage() {
-  return {
-    src: "public-work-2024.webp",
-    alt: "Evgeny Andreichyk during his public work in 2024",
-    className: "about-image-archive",
-    credit:
-      "Spacejamcreation / Wikimedia Commons · CC BY-SA 4.0",
-    creditUrl:
-      "https://commons.wikimedia.org/wiki/File:Yauheni_Andreichyk_UTC_Belarus.png",
-  };
-}
 
 function childEntries() {
   return Object.values(NODE_CHILDREN).flat();
@@ -720,12 +611,8 @@ function childEntries() {
 
 function entryById(id) {
   return (
-    INDEX_ENTRIES.find(
-      (entry) => entry.id === id
-    ) ||
-    childEntries().find(
-      (entry) => entry.id === id
-    )
+    INDEX_ENTRIES.find((entry) => entry.id === id) ||
+    childEntries().find((entry) => entry.id === id)
   );
 }
 
@@ -741,17 +628,8 @@ function buildVisualEdges() {
   const seen = new Set();
   const edges = [];
 
-  function add(
-    fromId,
-    toId,
-    kind
-  ) {
-    const key = [
-      fromId,
-      toId,
-    ]
-      .sort()
-      .join("::");
+  function add(fromId, toId, kind) {
+    const key = [fromId, toId].sort().join("::");
 
     if (seen.has(key)) {
       return;
@@ -766,83 +644,39 @@ function buildVisualEdges() {
     });
   }
 
-  STORY_EDGES.forEach(
-    ([fromId, toId]) => {
-      add(
-        fromId,
-        toId,
-        "story"
-      );
-    }
-  );
+  STORY_EDGES.forEach(([fromId, toId]) => {
+    add(fromId, toId, "story");
+  });
 
-  INDEX_ENTRIES.forEach(
-    (entry) => {
-      INDEX_ENTRIES
-        .filter(
-          (candidate) =>
-            candidate.id !==
-            entry.id
-        )
-        .map(
-          (candidate) => ({
-            id: candidate.id,
+  INDEX_ENTRIES.forEach((entry) => {
+    INDEX_ENTRIES
+      .filter((candidate) => candidate.id !== entry.id)
+      .map((candidate) => ({
+        id: candidate.id,
+        distance: Math.hypot(
+          candidate.x - entry.x,
+          candidate.y - entry.y
+        ),
+      }))
+      .sort((a, b) => a.distance - b.distance)
+      .slice(0, 2)
+      .forEach((neighbor) => {
+        add(entry.id, neighbor.id, "proximity");
+      });
+  });
 
-            distance:
-              Math.hypot(
-                candidate.x -
-                entry.x,
-                candidate.y -
-                entry.y
-              ),
-          })
-        )
-        .sort(
-          (a, b) =>
-            a.distance -
-            b.distance
-        )
-        .slice(0, 2)
-        .forEach(
-          (neighbor) => {
-            add(
-              entry.id,
-              neighbor.id,
-              "proximity"
-            );
-          }
-        );
-    }
-  );
-
-  Object.entries(
-    NODE_CHILDREN
-  ).forEach(
-    ([parentId, entries]) => {
-      entries.forEach(
-        (entry) => {
-          add(
-            parentId,
-            entry.id,
-            "branch"
-          );
-        }
-      );
-    }
-  );
+  Object.entries(NODE_CHILDREN).forEach(([parentId, entries]) => {
+    entries.forEach((entry) => {
+      add(parentId, entry.id, "branch");
+    });
+  });
 
   return edges;
 }
 
-function storyMarkup(
-  entry,
-  compact = false
-) {
-  const images =
-    entry.images || [];
-
-  const image =
-    images[0];
+function storyMarkup(entry, compact = false) {
+  const images = entry.images || [];
+  const image = images[0];
 
   const galleryControls =
     images.length > 1
@@ -865,65 +699,52 @@ function storyMarkup(
       `
       : "";
 
-  const figureMarkup =
-    image
-      ? `
-        <figure
-          class="about-index-figure"
-        >
-          <div
-            class="about-gallery"
+  const figureMarkup = image
+    ? `
+      <figure class="about-index-figure">
+        <div class="about-gallery">
+          <img
+            class="${image.className}"
+            src="${image.src}"
+            alt="${image.alt}"
+            draggable="false"
           >
-            <img
-              class="${image.className}"
-              src="${image.src}"
-              alt="${image.alt}"
-              draggable="false"
-            >
 
-            ${galleryControls}
-          </div>
+          ${galleryControls}
+        </div>
 
-          <div
-            class="about-gallery-dots"
-            role="group"
-            aria-label="Choose photograph"
-          ></div>
+        <div
+          class="about-gallery-dots"
+          role="group"
+          aria-label="Choose photograph"
+        ></div>
 
-          <figcaption>
-            Photo:
-            <a
-              href="${image.creditUrl}"
-              target="_blank"
-              rel="noreferrer"
-            >
-              ${image.credit}
-            </a>
-          </figcaption>
-        </figure>
-      `
-      : "";
+        <figcaption>
+          Photo:
+          <a
+            href="${image.creditUrl}"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ${image.credit}
+          </a>
+        </figcaption>
+      </figure>
+    `
+    : "";
 
   return `
     <article
-      class="about-story${compact
-      ? " about-story-compact"
-      : ""
-    }"
+      class="about-story${compact ? " about-story-compact" : ""}"
       data-entry-id="${entry.id}"
     >
       ${figureMarkup}
 
       <div
         class="about-index-copy"
-        ${image
-      ? ""
-      : 'style="grid-column:1/-1"'
-    }
+        ${image ? "" : 'style="grid-column:1/-1"'}
       >
-        <p
-          class="about-index-meta"
-        >
+        <p class="about-index-meta">
           ${entry.meta}
         </p>
 
@@ -943,10 +764,7 @@ function storyMarkup(
   `;
 }
 
-function activateGallery(
-  storyElement,
-  entry
-) {
+function activateGallery(storyElement, entry) {
   if (
     !storyElement ||
     !entry.images ||
@@ -958,154 +776,82 @@ function activateGallery(
   let activeIndex = 0;
   let touchStartX = null;
 
-  const imageElement =
-    storyElement.querySelector(
-      ".about-gallery img"
-    );
+  const imageElement = storyElement.querySelector(".about-gallery img");
+  const captionLink = storyElement.querySelector("figcaption a");
+  const dots = storyElement.querySelector(".about-gallery-dots");
+  const gallery = storyElement.querySelector(".about-gallery");
 
-  const captionLink =
-    storyElement.querySelector(
-      "figcaption a"
-    );
-
-  const dots =
-    storyElement.querySelector(
-      ".about-gallery-dots"
-    );
-
-  const gallery =
-    storyElement.querySelector(
-      ".about-gallery"
-    );
-
-  dots.innerHTML =
-    entry.images
-      .map(
-        (image, index) => `
-          <button
-            class="${index === 0
-            ? "is-active"
-            : ""
-          }"
-            type="button"
-            data-image-index="${index}"
-            aria-label="Photograph ${index + 1
-          } of ${entry.images.length
-          }"
-            aria-pressed="${index === 0
-          }"
-          ></button>
-        `
-      )
-      .join("");
+  dots.innerHTML = entry.images
+    .map(
+      (image, index) => `
+        <button
+          class="${index === 0 ? "is-active" : ""}"
+          type="button"
+          data-image-index="${index}"
+          aria-label="Photograph ${index + 1} of ${entry.images.length}"
+          aria-pressed="${index === 0}"
+        ></button>
+      `
+    )
+    .join("");
 
   function showImage(index) {
     activeIndex =
-      (
-        index +
-        entry.images.length
-      ) %
+      (index + entry.images.length) %
       entry.images.length;
 
-    const image =
-      entry.images[
-      activeIndex
-      ];
+    const image = entry.images[activeIndex];
 
-    imageElement.className =
-      image.className;
+    imageElement.className = image.className;
+    imageElement.src = image.src;
+    imageElement.alt = image.alt;
 
-    imageElement.src =
-      image.src;
+    captionLink.href = image.creditUrl;
+    captionLink.textContent = image.credit;
 
-    imageElement.alt =
-      image.alt;
+    dots.querySelectorAll("button").forEach((button, buttonIndex) => {
+      const active = buttonIndex === activeIndex;
 
-    captionLink.href =
-      image.creditUrl;
+      button.classList.toggle("is-active", active);
 
-    captionLink.textContent =
-      image.credit;
-
-    dots
-      .querySelectorAll(
-        "button"
-      )
-      .forEach(
-        (
-          button,
-          buttonIndex
-        ) => {
-          const active =
-            buttonIndex ===
-            activeIndex;
-
-          button.classList.toggle(
-            "is-active",
-            active
-          );
-
-          button.setAttribute(
-            "aria-pressed",
-            String(active)
-          );
-        }
+      button.setAttribute(
+        "aria-pressed",
+        String(active)
       );
+    });
   }
 
   storyElement
-    .querySelector(
-      ".about-gallery-prev"
-    )
-    .addEventListener(
-      "click",
-      () => {
-        showImage(
-          activeIndex - 1
-        );
-      }
-    );
+    .querySelector(".about-gallery-prev")
+    .addEventListener("click", () => {
+      showImage(activeIndex - 1);
+    });
 
   storyElement
-    .querySelector(
-      ".about-gallery-next"
-    )
-    .addEventListener(
-      "click",
-      () => {
-        showImage(
-          activeIndex + 1
-        );
-      }
+    .querySelector(".about-gallery-next")
+    .addEventListener("click", () => {
+      showImage(activeIndex + 1);
+    });
+
+  dots.addEventListener("click", (event) => {
+    const button = event.target.closest(
+      "button[data-image-index]"
     );
 
-  dots.addEventListener(
-    "click",
-    (event) => {
-      const button =
-        event.target.closest(
-          "button[data-image-index]"
-        );
-
-      if (!button) {
-        return;
-      }
-
-      showImage(
-        Number(
-          button.dataset
-            .imageIndex
-        )
-      );
+    if (!button) {
+      return;
     }
-  );
+
+    showImage(
+      Number(button.dataset.imageIndex)
+    );
+  });
 
   gallery.addEventListener(
     "touchstart",
     (event) => {
       touchStartX =
-        event.touches[0]
-          ?.clientX ?? null;
+        event.touches[0]?.clientX ?? null;
     },
     {
       passive: true,
@@ -1115,28 +861,18 @@ function activateGallery(
   gallery.addEventListener(
     "touchend",
     (event) => {
-      if (
-        touchStartX === null
-      ) {
+      if (touchStartX === null) {
         return;
       }
 
       const distance =
-        event.changedTouches[0]
-          .clientX -
+        event.changedTouches[0].clientX -
         touchStartX;
 
-      if (
-        Math.abs(distance) >
-        42
-      ) {
+      if (Math.abs(distance) > 42) {
         showImage(
           activeIndex +
-          (
-            distance < 0
-              ? 1
-              : -1
-          )
+          (distance < 0 ? 1 : -1)
         );
       }
 
@@ -1148,47 +884,24 @@ function activateGallery(
   );
 }
 
-function renderExplore(
-  container
-) {
-  const entries = [
-    EXPLORE_ENTRY,
-    EXPLORE_ENTRY_2,
-  ];
+/*
+  Explore is stored in explore/index.html.
 
+  JavaScript saves the original HTML when the page loads.
+  After switching to Nodes or Origins, returning to Explore
+  simply restores that original HTML.
+*/
+
+function renderExplore(container) {
   container.className =
     "about-view about-explore-view";
 
   container.innerHTML =
-    entries
-      .map(
-        (entry) =>
-          storyMarkup(entry)
-      )
-      .join("");
-
-  container
-    .querySelectorAll(
-      ".about-story"
-    )
-    .forEach(
-      (
-        storyElement,
-        index
-      ) => {
-        activateGallery(
-          storyElement,
-          entries[index]
-        );
-      }
-    );
+    initialExploreMarkup;
 }
 
-function renderNodes(
-  container
-) {
-  let activeId =
-    "statute-of-liberty";
+function renderNodes(container) {
+  let activeId = "statute-of-liberty";
 
   let pan = {
     x: 0,
@@ -1196,18 +909,11 @@ function renderNodes(
   };
 
   let drag = null;
+  let suppressClick = false;
+  let branchAnimationRunning = false;
 
-  let suppressClick =
-    false;
-
-  let branchAnimationRunning =
-    false;
-
-  const expandedNodes =
-    new Set();
-
-  const visualEdges =
-    buildVisualEdges();
+  const expandedNodes = new Set();
+  const visualEdges = buildVisualEdges();
 
   container.className =
     "about-view about-graph-view";
@@ -1217,9 +923,7 @@ function renderNodes(
       class="life-graph"
       aria-label="Interactive map of places, roles and turning points"
     >
-      <div
-        class="life-graph-world"
-      >
+      <div class="life-graph-world">
         <svg
           class="life-graph-lines"
           viewBox="0 0 100 100"
@@ -1227,117 +931,55 @@ function renderNodes(
           aria-hidden="true"
         ></svg>
 
-        <div
-          class="life-graph-nodes"
-        ></div>
+        <div class="life-graph-nodes"></div>
       </div>
 
-      <p
-        class="life-graph-hint"
-      >
+      <p class="life-graph-hint">
         Drag to explore · select a node to focus
       </p>
     </div>
 
-    <div
-      class="about-story-slot"
-    ></div>
+    <div class="about-story-slot"></div>
   `;
 
-  const graph =
-    container.querySelector(
-      ".life-graph"
-    );
-
-  const world =
-    container.querySelector(
-      ".life-graph-world"
-    );
-
-  const lines =
-    container.querySelector(
-      ".life-graph-lines"
-    );
-
-  const nodes =
-    container.querySelector(
-      ".life-graph-nodes"
-    );
-
-  const storySlot =
-    container.querySelector(
-      ".about-story-slot"
-    );
+  const graph = container.querySelector(".life-graph");
+  const world = container.querySelector(".life-graph-world");
+  const lines = container.querySelector(".life-graph-lines");
+  const nodes = container.querySelector(".life-graph-nodes");
+  const storySlot = container.querySelector(".about-story-slot");
 
   function visibleEntries() {
-    const visible = [
-      ...INDEX_ENTRIES,
-    ];
+    const visible = [...INDEX_ENTRIES];
 
-    function appendChildren(
-      parentId
-    ) {
-      if (
-        !expandedNodes.has(
-          parentId
-        )
-      ) {
+    function appendChildren(parentId) {
+      if (!expandedNodes.has(parentId)) {
         return;
       }
 
-      childrenOf(
-        parentId
-      ).forEach(
-        (entry) => {
-          visible.push(
-            entry
-          );
-
-          appendChildren(
-            entry.id
-          );
-        }
-      );
+      childrenOf(parentId).forEach((entry) => {
+        visible.push(entry);
+        appendChildren(entry.id);
+      });
     }
 
-    INDEX_ENTRIES.forEach(
-      (entry) => {
-        appendChildren(
-          entry.id
-        );
-      }
-    );
+    INDEX_ENTRIES.forEach((entry) => {
+      appendChildren(entry.id);
+    });
 
     return visible;
   }
 
-  function visibleDescendantIds(
-    id
-  ) {
+  function visibleDescendantIds(id) {
     const ids = [];
 
-    function collect(
-      parentId
-    ) {
-      childrenOf(
-        parentId
-      ).forEach(
-        (entry) => {
-          ids.push(
-            entry.id
-          );
+    function collect(parentId) {
+      childrenOf(parentId).forEach((entry) => {
+        ids.push(entry.id);
 
-          if (
-            expandedNodes.has(
-              entry.id
-            )
-          ) {
-            collect(
-              entry.id
-            );
-          }
+        if (expandedNodes.has(entry.id)) {
+          collect(entry.id);
         }
-      );
+      });
     }
 
     collect(id);
@@ -1345,313 +987,195 @@ function renderNodes(
     return ids;
   }
 
-  function collapseDescendants(
-    id
-  ) {
-    childrenOf(
-      id
-    ).forEach(
-      (entry) => {
-        expandedNodes.delete(
-          entry.id
-        );
-
-        collapseDescendants(
-          entry.id
-        );
-      }
-    );
+  function collapseDescendants(id) {
+    childrenOf(id).forEach((entry) => {
+      expandedNodes.delete(entry.id);
+      collapseDescendants(entry.id);
+    });
   }
 
-  function animateBranchOpening(
-    revealedIds
-  ) {
+  function animateBranchOpening(revealedIds) {
     if (
       !revealedIds.length ||
-      !(
-        "animate" in
-        Element.prototype
-      )
+      !("animate" in Element.prototype)
     ) {
       return;
     }
 
-    window.requestAnimationFrame(
-      () => {
-        revealedIds.forEach(
-          (id, index) => {
-            const entry =
-              entryById(id);
+    window.requestAnimationFrame(() => {
+      revealedIds.forEach((id, index) => {
+        const entry = entryById(id);
 
-            const parent =
-              entry?.parentId
-                ? entryById(
-                  entry.parentId
-                )
-                : null;
+        const parent = entry?.parentId
+          ? entryById(entry.parentId)
+          : null;
 
-            const node =
-              nodes.querySelector(
-                `[data-entry-id="${id}"]`
-              );
-
-            if (
-              !entry ||
-              !parent ||
-              !node
-            ) {
-              return;
-            }
-
-            node.animate(
-              [
-                {
-                  left:
-                    `${parent.x}%`,
-                  top:
-                    `${parent.y}%`,
-                  opacity: 0,
-                  filter:
-                    "blur(4px)",
-                },
-                {
-                  left:
-                    `${entry.x}%`,
-                  top:
-                    `${entry.y}%`,
-                  opacity: 1,
-                  filter:
-                    "blur(0)",
-                },
-              ],
-              {
-                duration: 440,
-                delay:
-                  40 +
-                  index * 55,
-                easing:
-                  "cubic-bezier(.22, 1, .36, 1)",
-                fill:
-                  "backwards",
-              }
-            );
-          }
+        const node = nodes.querySelector(
+          `[data-entry-id="${id}"]`
         );
 
-        const revealedSet =
-          new Set(
-            revealedIds
-          );
+        if (!entry || !parent || !node) {
+          return;
+        }
 
-        lines
-          .querySelectorAll(
-            "line"
-          )
-          .forEach(
-            (line) => {
-              if (
-                !revealedSet.has(
-                  line.dataset
-                    .from
-                ) &&
-                !revealedSet.has(
-                  line.dataset
-                    .to
-                )
-              ) {
-                return;
-              }
+        node.animate(
+          [
+            {
+              left: `${parent.x}%`,
+              top: `${parent.y}%`,
+              opacity: 0,
+              filter: "blur(4px)",
+            },
+            {
+              left: `${entry.x}%`,
+              top: `${entry.y}%`,
+              opacity: 1,
+              filter: "blur(0)",
+            },
+          ],
+          {
+            duration: 440,
+            delay: 40 + index * 55,
+            easing: "cubic-bezier(.22, 1, .36, 1)",
+            fill: "backwards",
+          }
+        );
+      });
 
-              const finalOpacity =
-                getComputedStyle(
-                  line
-                ).opacity;
+      const revealedSet = new Set(revealedIds);
 
-              line.animate(
-                [
-                  {
-                    opacity: 0,
-                    strokeDasharray:
-                      "1 1",
-                    strokeDashoffset:
-                      "1",
-                  },
-                  {
-                    opacity:
-                      finalOpacity,
-                    strokeDasharray:
-                      "1 1",
-                    strokeDashoffset:
-                      "0",
-                  },
-                ],
-                {
-                  duration: 380,
-                  delay: 55,
-                  easing:
-                    "cubic-bezier(.22, 1, .36, 1)",
-                }
-              );
+      lines
+        .querySelectorAll("line")
+        .forEach((line) => {
+          if (
+            !revealedSet.has(line.dataset.from) &&
+            !revealedSet.has(line.dataset.to)
+          ) {
+            return;
+          }
+
+          const finalOpacity =
+            getComputedStyle(line).opacity;
+
+          line.animate(
+            [
+              {
+                opacity: 0,
+                strokeDasharray: "1 1",
+                strokeDashoffset: "1",
+              },
+              {
+                opacity: finalOpacity,
+                strokeDasharray: "1 1",
+                strokeDashoffset: "0",
+              },
+            ],
+            {
+              duration: 380,
+              delay: 55,
+              easing: "cubic-bezier(.22, 1, .36, 1)",
             }
           );
-      }
-    );
+        });
+    });
   }
 
-  async function animateBranchClosing(
-    id
-  ) {
+  async function animateBranchClosing(id) {
     const closingIds =
       new Set(
-        visibleDescendantIds(
-          id
-        )
+        visibleDescendantIds(id)
       );
 
-    if (
-      !closingIds.size
-    ) {
+    if (!closingIds.size) {
       return;
     }
 
-    if (
-      !(
-        "animate" in
-        Element.prototype
-      )
-    ) {
+    if (!("animate" in Element.prototype)) {
       return;
     }
 
     const nodeAnimations =
       Array.from(
-        nodes.querySelectorAll(
-          ".life-node"
-        )
+        nodes.querySelectorAll(".life-node")
       )
-        .filter(
-          (node) =>
-            closingIds.has(
-              node.dataset
-                .entryId
-            )
+        .filter((node) =>
+          closingIds.has(node.dataset.entryId)
         )
-        .map(
-          (node, index) => {
-            const entry =
-              entryById(
-                node.dataset
-                  .entryId
-              );
+        .map((node, index) => {
+          const entry =
+            entryById(node.dataset.entryId);
 
-            const parent =
-              entry?.parentId
-                ? entryById(
-                  entry.parentId
-                )
-                : null;
+          const parent = entry?.parentId
+            ? entryById(entry.parentId)
+            : null;
 
-            if (
-              !entry ||
-              !parent
-            ) {
-              return Promise.resolve();
-            }
-
-            return node
-              .animate(
-                [
-                  {
-                    left:
-                      `${entry.x}%`,
-                    top:
-                      `${entry.y}%`,
-                    opacity: 1,
-                    filter:
-                      "blur(0)",
-                  },
-                  {
-                    left:
-                      `${parent.x}%`,
-                    top:
-                      `${parent.y}%`,
-                    opacity: 0,
-                    filter:
-                      "blur(4px)",
-                  },
-                ],
-                {
-                  duration: 330,
-                  delay:
-                    index * 25,
-                  easing:
-                    "cubic-bezier(.4, 0, .6, 1)",
-                  fill:
-                    "forwards",
-                }
-              )
-              .finished
-              .catch(
-                () => { }
-              );
+          if (!entry || !parent) {
+            return Promise.resolve();
           }
-        );
+
+          return node
+            .animate(
+              [
+                {
+                  left: `${entry.x}%`,
+                  top: `${entry.y}%`,
+                  opacity: 1,
+                  filter: "blur(0)",
+                },
+                {
+                  left: `${parent.x}%`,
+                  top: `${parent.y}%`,
+                  opacity: 0,
+                  filter: "blur(4px)",
+                },
+              ],
+              {
+                duration: 330,
+                delay: index * 25,
+                easing: "cubic-bezier(.4, 0, .6, 1)",
+                fill: "forwards",
+              }
+            )
+            .finished
+            .catch(() => { });
+        });
 
     const lineAnimations =
       Array.from(
-        lines.querySelectorAll(
-          "line"
-        )
+        lines.querySelectorAll("line")
       )
         .filter(
           (line) =>
-            closingIds.has(
-              line.dataset.from
-            ) ||
-            closingIds.has(
-              line.dataset.to
-            )
+            closingIds.has(line.dataset.from) ||
+            closingIds.has(line.dataset.to)
         )
-        .map(
-          (line) => {
-            const currentOpacity =
-              getComputedStyle(
-                line
-              ).opacity;
+        .map((line) => {
+          const currentOpacity =
+            getComputedStyle(line).opacity;
 
-            return line
-              .animate(
-                [
-                  {
-                    opacity:
-                      currentOpacity,
-                    strokeDasharray:
-                      "1 1",
-                    strokeDashoffset:
-                      "0",
-                  },
-                  {
-                    opacity: 0,
-                    strokeDasharray:
-                      "1 1",
-                    strokeDashoffset:
-                      "1",
-                  },
-                ],
+          return line
+            .animate(
+              [
                 {
-                  duration: 280,
-                  easing:
-                    "cubic-bezier(.4, 0, .6, 1)",
-                  fill:
-                    "forwards",
-                }
-              )
-              .finished
-              .catch(
-                () => { }
-              );
-          }
-        );
+                  opacity: currentOpacity,
+                  strokeDasharray: "1 1",
+                  strokeDashoffset: "0",
+                },
+                {
+                  opacity: 0,
+                  strokeDasharray: "1 1",
+                  strokeDashoffset: "1",
+                },
+              ],
+              {
+                duration: 280,
+                easing: "cubic-bezier(.4, 0, .6, 1)",
+                fill: "forwards",
+              }
+            )
+            .finished
+            .catch(() => { });
+        });
 
     await Promise.all([
       ...nodeAnimations,
@@ -1660,10 +1184,7 @@ function renderNodes(
   }
 
   function updateFocus() {
-    const entry =
-      entryById(
-        activeId
-      );
+    const entry = entryById(activeId);
 
     if (!entry) {
       return;
@@ -1671,104 +1192,60 @@ function renderNodes(
 
     world.style.transform =
       `translate(` +
-      `calc(${50 /
-      GRAPH_WIDTH_SCALE -
-      entry.x
-      }% + ${pan.x}px), ` +
-      `calc(${50 /
-      GRAPH_HEIGHT_SCALE -
-      entry.y
-      }% + ${pan.y}px)` +
+      `calc(${50 / GRAPH_WIDTH_SCALE - entry.x}% + ${pan.x}px), ` +
+      `calc(${50 / GRAPH_HEIGHT_SCALE - entry.y}% + ${pan.y}px)` +
       `)`;
 
     nodes
-      .querySelectorAll(
-        ".life-node"
-      )
-      .forEach(
-        (node) => {
-          const isActive =
-            node.dataset
-              .entryId ===
-            activeId;
+      .querySelectorAll(".life-node")
+      .forEach((node) => {
+        const isActive =
+          node.dataset.entryId === activeId;
 
-          node.classList.toggle(
-            "is-active",
-            isActive
-          );
+        node.classList.toggle(
+          "is-active",
+          isActive
+        );
 
-          node.setAttribute(
-            "aria-pressed",
-            String(
-              isActive
-            )
-          );
-        }
-      );
+        node.setAttribute(
+          "aria-pressed",
+          String(isActive)
+        );
+      });
 
     lines
-      .querySelectorAll(
-        "line"
-      )
-      .forEach(
-        (line) => {
-          const connected =
-            line.dataset.from ===
-            activeId ||
-            line.dataset.to ===
-            activeId;
+      .querySelectorAll("line")
+      .forEach((line) => {
+        const connected =
+          line.dataset.from === activeId ||
+          line.dataset.to === activeId;
 
-          line.classList.toggle(
-            "is-connected",
-            connected
-          );
-        }
-      );
+        line.classList.toggle(
+          "is-connected",
+          connected
+        );
+      });
   }
 
-  function renderGraph(
-    revealedIds = []
-  ) {
-    const entries =
-      visibleEntries();
+  function renderGraph(revealedIds = []) {
+    const entries = visibleEntries();
 
     const visibleIds =
       new Set(
-        entries.map(
-          (entry) =>
-            entry.id
-        )
+        entries.map((entry) => entry.id)
       );
 
     lines.innerHTML =
       visualEdges
         .filter(
-          ({
-            fromId,
-            toId,
-          }) =>
-            visibleIds.has(
-              fromId
-            ) &&
-            visibleIds.has(
-              toId
-            )
+          ({ fromId, toId }) =>
+            visibleIds.has(fromId) &&
+            visibleIds.has(toId)
         )
         .map(
-          ({
-            fromId,
-            toId,
-            kind,
-          }) => {
-            const from =
-              entryById(
-                fromId
-              );
-
-            const to =
-              entryById(
-                toId
-              );
+          ({ fromId, toId, kind }) => {
+            const from = entryById(fromId);
+            const to = entryById(toId);
 
             return `
               <line
@@ -1788,91 +1265,60 @@ function renderNodes(
 
     nodes.innerHTML =
       entries
-        .map(
-          (
-            entry,
-            index
-          ) => {
-            const expandable =
-              hasChildren(
-                entry.id
-              );
+        .map((entry, index) => {
+          const expandable =
+            hasChildren(entry.id);
 
-            const expanded =
-              expandedNodes.has(
-                entry.id
-              );
+          const expanded =
+            expandedNodes.has(entry.id);
 
-            const nodeType =
-              !entry.parentId ||
-                expandable
-                ? "life-node-main"
-                : "life-node-child";
+          const nodeType =
+            !entry.parentId || expandable
+              ? "life-node-main"
+              : "life-node-child";
 
-            return `
-              <button
-                class="life-node ${nodeType}${entry.id ===
-                activeId
-                ? " is-active"
-                : ""
-              }"
-                type="button"
-                data-entry-id="${entry.id}"
-                aria-pressed="${entry.id ===
-              activeId
-              }"
-                ${expandable
-                ? `aria-expanded="${expanded}"`
-                : ""
-              }
-                style="
-                  left:${entry.x}%;
-                  top:${entry.y}%;
-                  --float-delay:${index * -0.73
-              }s
-                "
-              >
-                <span
-                  class="life-node-dot"
-                  aria-hidden="true"
-                ></span>
+          return `
+            <button
+              class="life-node ${nodeType}${entry.id === activeId ? " is-active" : ""}"
+              type="button"
+              data-entry-id="${entry.id}"
+              aria-pressed="${entry.id === activeId}"
+              ${expandable ? `aria-expanded="${expanded}"` : ""}
+              style="
+                left:${entry.x}%;
+                top:${entry.y}%;
+                --float-delay:${index * -0.73}s
+              "
+            >
+              <span
+                class="life-node-dot"
+                aria-hidden="true"
+              ></span>
 
-                <span>
-                  ${entry.label}
-                </span>
-              </button>
-            `;
-          }
-        )
+              <span>
+                ${entry.label}
+              </span>
+            </button>
+          `;
+        })
         .join("");
 
     updateFocus();
-
-    animateBranchOpening(
-      revealedIds
-    );
+    animateBranchOpening(revealedIds);
   }
 
   function updateStory() {
-    const entry =
-      entryById(
-        activeId
-      );
+    const entry = entryById(activeId);
 
     if (!entry) {
       return;
     }
 
     storySlot.innerHTML =
-      storyMarkup(
-        entry,
-        true
-      );
+      storyMarkup(entry, true);
 
     activateGallery(
-      storySlot.querySelector(
-        ".about-story"
-      ),
+      storySlot.querySelector(".about-story"),
       entry
     );
   }
@@ -1887,31 +1333,26 @@ function renderNodes(
     }
 
     const story =
-      storySlot.querySelector(
-        ".about-story"
-      );
+      storySlot.querySelector(".about-story");
 
     if (!story) {
       return;
     }
 
-    window.requestAnimationFrame(
-      () => {
-        story.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-      }
-    );
+    window.requestAnimationFrame(() => {
+      story.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    });
   }
 
   nodes.addEventListener(
     "click",
     async (event) => {
-      const node =
-        event.target.closest(
-          "button[data-entry-id]"
-        );
+      const node = event.target.closest(
+        "button[data-entry-id]"
+      );
 
       if (
         !node ||
@@ -1921,14 +1362,14 @@ function renderNodes(
         return;
       }
 
-      const id =
-        node.dataset
-          .entryId;
+      const id = node.dataset.entryId;
 
-      window.dataLayer = window.dataLayer || [];
+      window.dataLayer =
+        window.dataLayer || [];
+
       window.dataLayer.push({
         event: "node_click",
-        node_name: id
+        node_name: id,
       });
 
       const expandable =
@@ -1944,48 +1385,29 @@ function renderNodes(
       };
 
       if (expandable) {
-        if (
-          expandedNodes.has(
-            id
-          )
-        ) {
-          branchAnimationRunning =
-            true;
+        if (expandedNodes.has(id)) {
+          branchAnimationRunning = true;
 
           updateFocus();
           updateStory();
 
-          await animateBranchClosing(
-            id
-          );
+          await animateBranchClosing(id);
 
-          expandedNodes.delete(
-            id
-          );
-
-          collapseDescendants(
-            id
-          );
+          expandedNodes.delete(id);
+          collapseDescendants(id);
 
           renderGraph();
 
-          branchAnimationRunning =
-            false;
+          branchAnimationRunning = false;
         } else {
-          expandedNodes.add(
-            id
-          );
+          expandedNodes.add(id);
 
           revealedIds =
             childrenOf(id).map(
-              (entry) =>
-                entry.id
+              (entry) => entry.id
             );
 
-          renderGraph(
-            revealedIds
-          );
-
+          renderGraph(revealedIds);
           updateStory();
         }
       } else {
@@ -2002,30 +1424,17 @@ function renderNodes(
   graph.addEventListener(
     "pointerdown",
     (event) => {
-      if (
-        event.button !== 0
-      ) {
+      if (event.button !== 0) {
         return;
       }
 
       drag = {
-        pointerId:
-          event.pointerId,
-
-        startX:
-          event.clientX,
-
-        startY:
-          event.clientY,
-
-        panX:
-          pan.x,
-
-        panY:
-          pan.y,
-
-        moved:
-          false,
+        pointerId: event.pointerId,
+        startX: event.clientX,
+        startY: event.clientY,
+        panX: pan.x,
+        panY: pan.y,
+        moved: false,
       };
 
       graph.classList.add(
@@ -2039,19 +1448,16 @@ function renderNodes(
     (event) => {
       if (
         !drag ||
-        drag.pointerId !==
-        event.pointerId
+        drag.pointerId !== event.pointerId
       ) {
         return;
       }
 
       const deltaX =
-        event.clientX -
-        drag.startX;
+        event.clientX - drag.startX;
 
       const deltaY =
-        event.clientY -
-        drag.startY;
+        event.clientY - drag.startY;
 
       if (
         !drag.moved &&
@@ -2071,20 +1477,17 @@ function renderNodes(
       }
 
       const maxX =
-        graph.clientWidth *
-        0.55;
+        graph.clientWidth * 0.55;
 
       const maxY =
-        graph.clientHeight *
-        0.5;
+        graph.clientHeight * 0.5;
 
       pan = {
         x: Math.max(
           -maxX,
           Math.min(
             maxX,
-            drag.panX +
-            deltaX
+            drag.panX + deltaX
           )
         ),
 
@@ -2092,8 +1495,7 @@ function renderNodes(
           -maxY,
           Math.min(
             maxY,
-            drag.panY +
-            deltaY
+            drag.panY + deltaY
           )
         ),
       };
@@ -2105,8 +1507,7 @@ function renderNodes(
   function stopDrag(event) {
     if (
       !drag ||
-      drag.pointerId !==
-      event.pointerId
+      drag.pointerId !== event.pointerId
     ) {
       return;
     }
@@ -2124,13 +1525,9 @@ function renderNodes(
     if (drag.moved) {
       suppressClick = true;
 
-      window.setTimeout(
-        () => {
-          suppressClick =
-            false;
-        },
-        0
-      );
+      window.setTimeout(() => {
+        suppressClick = false;
+      }, 0);
     }
 
     drag = null;
@@ -2154,9 +1551,7 @@ function renderNodes(
   updateStory();
 }
 
-function renderOrigins(
-  container
-) {
+function renderOrigins(container) {
   container.className =
     "about-view origins-view";
 
@@ -2165,33 +1560,23 @@ function renderOrigins(
       class="origins-composition"
       aria-labelledby="origins-composition-title"
     >
-      <div
-        class="origins-composition-heading"
-      >
+      <div class="origins-composition-heading">
         <div>
-          <p
-            class="origins-kicker"
-          >
+          <p class="origins-kicker">
             MyHeritage DNA · Ethnicity estimate
           </p>
 
-          <h2
-            id="origins-composition-title"
-          >
+          <h2 id="origins-composition-title">
             An inherited geography.
           </h2>
         </div>
 
-        <p
-          class="origins-version"
-        >
+        <p class="origins-version">
           Estimate v2.5
         </p>
       </div>
 
-      <div
-        class="origins-data-layout"
-      >
+      <div class="origins-data-layout">
         <div
           class="origins-list"
           role="list"
@@ -2211,9 +1596,7 @@ function renderOrigins(
                   aria-hidden="true"
                 ></span>
 
-                <span
-                  class="origins-region-name"
-                >
+                <span class="origins-region-name">
                   <strong>
                     ${region.label}
                   </strong>
@@ -2223,12 +1606,8 @@ function renderOrigins(
                   </small>
                 </span>
 
-                <span
-                  class="origins-percentage"
-                >
-                  ${region.value.toFixed(
-      1
-    )}%
+                <span class="origins-percentage">
+                  ${region.value.toFixed(1)}%
                 </span>
 
                 <span
@@ -2262,33 +1641,23 @@ function renderOrigins(
         class="origins-landmass"
         aria-hidden="true"
       >
-        <span
-          class="origins-country country-baltics"
-        >
+        <span class="origins-country country-baltics">
           Baltic region
         </span>
 
-        <span
-          class="origins-country country-poland"
-        >
+        <span class="origins-country country-poland">
           Poland
         </span>
 
-        <span
-          class="origins-country country-belarus"
-        >
+        <span class="origins-country country-belarus">
           Belarus
         </span>
 
-        <span
-          class="origins-country country-ukraine"
-        >
+        <span class="origins-country country-ukraine">
           Ukraine
         </span>
 
-        <span
-          class="origins-country country-balkans"
-        >
+        <span class="origins-country country-balkans">
           Balkans
         </span>
 
@@ -2309,15 +1678,11 @@ function renderOrigins(
         aria-live="polite"
       ></div>
 
-      <p
-        class="origins-map-hint"
-      >
+      <p class="origins-map-hint">
         Select a region to explore the estimate
       </p>
 
-      <p
-        class="origins-disclaimer"
-      >
+      <p class="origins-disclaimer">
         Ethnicity estimates are statistical interpretations.
       </p>
     </section>
@@ -2341,9 +1706,7 @@ function renderOrigins(
   let activeId = null;
 
   container
-    .querySelector(
-      ".origins-list"
-    )
+    .querySelector(".origins-list")
     .addEventListener(
       "click",
       (event) => {
@@ -2358,49 +1721,41 @@ function renderOrigins(
 
         activeId =
           activeId ===
-            button.dataset
-              .originId
+            button.dataset.originId
             ? null
-            : button.dataset
-              .originId;
+            : button.dataset.originId;
 
         container
           .querySelectorAll(
             "button[data-origin-id]"
           )
-          .forEach(
-            (item) => {
-              const active =
-                item.dataset
-                  .originId ===
-                activeId;
+          .forEach((item) => {
+            const active =
+              item.dataset.originId ===
+              activeId;
 
-              item.classList.toggle(
-                "is-active",
-                active
-              );
+            item.classList.toggle(
+              "is-active",
+              active
+            );
 
-              item.setAttribute(
-                "aria-pressed",
-                String(active)
-              );
-            }
-          );
+            item.setAttribute(
+              "aria-pressed",
+              String(active)
+            );
+          });
 
         container
           .querySelectorAll(
             "[data-origin-zone]"
           )
-          .forEach(
-            (zone) => {
-              zone.classList.toggle(
-                "is-active",
-                zone.dataset
-                  .originZone ===
-                activeId
-              );
-            }
-          );
+          .forEach((zone) => {
+            zone.classList.toggle(
+              "is-active",
+              zone.dataset.originZone ===
+              activeId
+            );
+          });
 
         field.className =
           `origins-field${activeId
@@ -2411,24 +1766,16 @@ function renderOrigins(
         const region =
           ORIGIN_REGIONS.find(
             (item) =>
-              item.id ===
-              activeId
+              item.id === activeId
           );
 
         if (region) {
-          copy.hidden =
-            false;
-
-          hint.hidden =
-            true;
+          copy.hidden = false;
+          hint.hidden = true;
 
           copy.innerHTML = `
-            <p
-              class="origins-kicker"
-            >
-              Selected region · ${region.value.toFixed(
-            1
-          )}%
+            <p class="origins-kicker">
+              Selected region · ${region.value.toFixed(1)}%
             </p>
 
             <h3>
@@ -2440,14 +1787,9 @@ function renderOrigins(
             </p>
           `;
         } else {
-          copy.hidden =
-            true;
-
-          hint.hidden =
-            false;
-
-          copy.innerHTML =
-            "";
+          copy.hidden = true;
+          hint.hidden = false;
+          copy.innerHTML = "";
         }
       }
     );
@@ -2457,6 +1799,13 @@ const aboutView =
   document.querySelector(
     "#about-view"
   );
+
+/*
+  Save the Explore HTML immediately when the page loads.
+  This becomes the single source for the Explore section.
+*/
+const initialExploreMarkup =
+  aboutView?.innerHTML || "";
 
 const eyebrow =
   document.querySelector(
@@ -2479,74 +1828,50 @@ const navigations =
   );
 
 function showView(view) {
-  const copy =
-    VIEW_COPY[view];
+  const copy = VIEW_COPY[view];
 
-  eyebrow.textContent =
-    copy.eyebrow;
+  eyebrow.textContent = copy.eyebrow;
+  title.textContent = copy.title;
+  lede.textContent = copy.lede;
 
-  title.textContent =
-    copy.title;
+  navigations.forEach((navigation) => {
+    navigation
+      .querySelectorAll(
+        "button[data-view]"
+      )
+      .forEach((button) => {
+        const active =
+          button.dataset.view === view;
 
-  lede.textContent =
-    copy.lede;
-
-  navigations.forEach(
-    (navigation) => {
-      navigation
-        .querySelectorAll(
-          "button[data-view]"
-        )
-        .forEach(
-          (button) => {
-            const active =
-              button.dataset
-                .view ===
-              view;
-
-            button.classList.toggle(
-              "is-active",
-              active
-            );
-
-            button.setAttribute(
-              "aria-pressed",
-              String(active)
-            );
-          }
+        button.classList.toggle(
+          "is-active",
+          active
         );
-    }
-  );
 
-  if (
-    view === "explore"
-  ) {
-    renderExplore(
-      aboutView
-    );
+        button.setAttribute(
+          "aria-pressed",
+          String(active)
+        );
+      });
+  });
+
+  if (view === "explore") {
+    renderExplore(aboutView);
   }
 
-  if (
-    view === "nodes"
-  ) {
-    renderNodes(
-      aboutView
-    );
+  if (view === "nodes") {
+    renderNodes(aboutView);
 
     window.dataLayer =
       window.dataLayer || [];
 
     window.dataLayer.push({
-      event: "nodes_section_view"
+      event: "nodes_section_view",
     });
   }
 
-  if (
-    view === "origins"
-  ) {
-    renderOrigins(
-      aboutView
-    );
+  if (view === "origins") {
+    renderOrigins(aboutView);
   }
 }
 
@@ -2562,44 +1887,40 @@ function getViewFromHash() {
     : "explore";
 }
 
-navigations.forEach(
-  (navigation) => {
-    navigation.addEventListener(
-      "click",
-      (event) => {
-        const button =
-          event.target.closest(
-            "button[data-view]"
-          );
+navigations.forEach((navigation) => {
+  navigation.addEventListener(
+    "click",
+    (event) => {
+      const button =
+        event.target.closest(
+          "button[data-view]"
+        );
 
-        if (!button) {
-          return;
-        }
-
-        const view =
-          button.dataset.view;
-
-        if (
-          view === "explore"
-        ) {
-          history.pushState(
-            null,
-            "",
-            window.location.pathname
-          );
-        } else {
-          history.pushState(
-            null,
-            "",
-            `#${view}`
-          );
-        }
-
-        showView(view);
+      if (!button) {
+        return;
       }
-    );
-  }
-);
+
+      const view =
+        button.dataset.view;
+
+      if (view === "explore") {
+        history.pushState(
+          null,
+          "",
+          window.location.pathname
+        );
+      } else {
+        history.pushState(
+          null,
+          "",
+          `#${view}`
+        );
+      }
+
+      showView(view);
+    }
+  );
+});
 
 window.addEventListener(
   "hashchange",
