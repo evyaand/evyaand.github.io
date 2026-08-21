@@ -677,7 +677,7 @@ const VIEW_COPY = {
   nodes: {
     eyebrow: "02 / Nodes",
     title: "things that stayed",
-    lede: "..."
+    lede: "Move through a living map of turning points. There isn’t always a clear connection between things, but they still shape the way I see and exist. It’s also a good way to get to know me better.",
   },
 
   origins: {
