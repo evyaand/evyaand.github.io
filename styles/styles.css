@@ -74,6 +74,7 @@ a {
   line-height: 1;
   transform-origin: 55% 65%;
   animation: personal-monogram-arrival 1.15s cubic-bezier(.22, 1, .36, 1) .18s both;
+  cursor: pointer;
 }
 
 .personal-monogram-mark {
@@ -282,6 +283,11 @@ h1 {
   height: 82px;
 }
 
+.logo-pace img {
+  max-width: 180px;
+  height: 210px;
+}
+
 .logo-us-embassy img {
   max-width: 88px;
   height: 86px;
@@ -303,13 +309,13 @@ h1 {
 }
 
 .logo-polish-mfa img {
-  max-width: 232px;
-  height: 68px;
+  max-width: 242px;
+  height: 108px;
 }
 
 .logo-latvia-mfa img {
-  max-width: 104px;
-  height: 92px;
+  max-width: 134px;
+  height: 152px;
 }
 
 .logo-eeas img {
@@ -318,8 +324,8 @@ h1 {
 }
 
 .logo-ehu img {
-  max-width: 210px;
-  height: 70px;
+  max-width: 200px;
+  height: 100px;
 }
 
 .logo-eed img {
@@ -329,7 +335,7 @@ h1 {
 
 .logo-chopin-university img {
   max-width: 225px;
-  height: 68px;
+  height: 88px;
 }
 
 .logo-amnesty img {
@@ -351,8 +357,8 @@ h1 {
 }
 
 .logo-ndi img {
-  max-width: 210px;
-  height: 68px;
+  max-width: 150px;
+  height: 58px;
 }
 
 .logo-iri img {
