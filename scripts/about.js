@@ -329,7 +329,7 @@ But this kind of work has also made me notice something again and again: differe
         creditUrl: "",
       },
       {
-        src: "Riga-stratcom.webp",
+        src: "Riga-Stratcom.webp",
         alt: "Riga Stratcom Dialogue 2023, Latvia",
         className: "about-image-portrait",
         credit: "Evgeny Andreichyk / Personal archive",
@@ -674,11 +674,10 @@ const VIEW_COPY = {
       "A short overview of the ideas and questions that shape my interests and work.",
   },
 
-  index: {
+  nodes: {
     eyebrow: "02 / Nodes",
     title: "things that stayed",
-    lede:
-      "Move through a living map of turning points. There isn’t always a clear connection between things, but they still shape the way I see and exist. It’s also a good way to get to know me better.",
+    lede: "..."
   },
 
   origins: {
@@ -1185,7 +1184,7 @@ function renderExplore(
     );
 }
 
-function renderIndex(
+function renderNodes(
   container
 ) {
   let activeId =
@@ -2518,9 +2517,9 @@ function showView(view) {
   }
 
   if (
-    view === "index"
+    view === "nodes"
   ) {
-    renderIndex(
+    renderNodes(
       aboutView
     );
   }
