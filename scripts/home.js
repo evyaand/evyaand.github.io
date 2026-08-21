@@ -93,7 +93,7 @@
 
     try {
       marquee.setPointerCapture(event.pointerId);
-    } catch (_) {}
+    } catch (_) { }
   });
 
   function release(event) {
@@ -113,7 +113,7 @@
       ) {
         marquee.releasePointerCapture(activePointerId);
       }
-    } catch (_) {}
+    } catch (_) { }
 
     activePointerId = null;
     previousTime = performance.now();
@@ -136,3 +136,19 @@
   measure();
   requestAnimationFrame(animate);
 })();
+
+const logoMarquee = document.querySelector(".logo-marquee");
+
+if (logoMarquee) {
+  logoMarquee.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+  });
+
+  logoMarquee.addEventListener("dragstart", (event) => {
+    event.preventDefault();
+  });
+
+  logoMarquee.addEventListener("selectstart", (event) => {
+    event.preventDefault();
+  });
+}
