@@ -1934,3 +1934,266 @@ window.addEventListener(
 showView(
   getViewFromHash()
 );
+
+/* Fullscreen photo lightbox */
+
+(() => {
+  const lightbox = document.createElement("div");
+  lightbox.className = "photo-lightbox";
+  lightbox.setAttribute("role", "dialog");
+  lightbox.setAttribute("aria-modal", "true");
+  lightbox.setAttribute("aria-label", "Photo viewer");
+
+  lightbox.innerHTML = `
+    <button
+      class="photo-lightbox-close"
+      type="button"
+      aria-label="Close photo"
+    >×</button>
+
+    <button
+      class="photo-lightbox-arrow photo-lightbox-prev"
+      type="button"
+      aria-label="Previous photo"
+    >←</button>
+
+    <div class="photo-lightbox-stage">
+      <img
+        class="photo-lightbox-image"
+        src=""
+        alt=""
+        draggable="false"
+      >
+    </div>
+
+    <button
+      class="photo-lightbox-arrow photo-lightbox-next"
+      type="button"
+      aria-label="Next photo"
+    >→</button>
+
+    <p class="photo-lightbox-counter"></p>
+  `;
+
+  document.body.appendChild(lightbox);
+
+  const lightboxImage = lightbox.querySelector(".photo-lightbox-image");
+  const closeButton = lightbox.querySelector(".photo-lightbox-close");
+  const previousButton = lightbox.querySelector(".photo-lightbox-prev");
+  const nextButton = lightbox.querySelector(".photo-lightbox-next");
+  const counter = lightbox.querySelector(".photo-lightbox-counter");
+  const stage = lightbox.querySelector(".photo-lightbox-stage");
+
+  let images = [];
+  let activeIndex = 0;
+  let touchStartX = null;
+
+  function renderLightboxImage() {
+    if (!images.length) return;
+
+    const image = images[activeIndex];
+
+    lightboxImage.src = image.src;
+    lightboxImage.alt = image.alt || "";
+
+    lightbox.classList.toggle(
+      "has-multiple",
+      images.length > 1
+    );
+
+    counter.textContent =
+      images.length > 1
+        ? `${activeIndex + 1} / ${images.length}`
+        : "";
+  }
+
+  function openLightbox(nextImages, index = 0) {
+    if (!nextImages || !nextImages.length) return;
+
+    images = nextImages;
+
+    activeIndex =
+      (index + images.length) %
+      images.length;
+
+    renderLightboxImage();
+
+    lightbox.classList.add("is-open");
+    document.documentElement.classList.add("photo-lightbox-open");
+
+    closeButton.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove("is-open");
+    document.documentElement.classList.remove("photo-lightbox-open");
+
+    window.setTimeout(() => {
+      lightboxImage.src = "";
+    }, 180);
+  }
+
+  function showLightboxImage(index) {
+    if (!images.length) return;
+
+    activeIndex =
+      (index + images.length) %
+      images.length;
+
+    renderLightboxImage();
+  }
+
+  previousButton.addEventListener("click", () => {
+    showLightboxImage(activeIndex - 1);
+  });
+
+  nextButton.addEventListener("click", () => {
+    showLightboxImage(activeIndex + 1);
+  });
+
+  closeButton.addEventListener("click", closeLightbox);
+
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (!lightbox.classList.contains("is-open")) {
+      return;
+    }
+
+    if (event.key === "Escape") {
+      closeLightbox();
+      return;
+    }
+
+    if (event.key === "ArrowLeft" && images.length > 1) {
+      showLightboxImage(activeIndex - 1);
+    }
+
+    if (event.key === "ArrowRight" && images.length > 1) {
+      showLightboxImage(activeIndex + 1);
+    }
+  });
+
+  stage.addEventListener(
+    "touchstart",
+    (event) => {
+      touchStartX =
+        event.touches[0]?.clientX ?? null;
+    },
+    {
+      passive: true,
+    }
+  );
+
+  stage.addEventListener(
+    "touchend",
+    (event) => {
+      if (
+        touchStartX === null ||
+        images.length < 2
+      ) {
+        touchStartX = null;
+        return;
+      }
+
+      const distance =
+        event.changedTouches[0].clientX -
+        touchStartX;
+
+      if (Math.abs(distance) > 45) {
+        showLightboxImage(
+          activeIndex +
+          (distance < 0 ? 1 : -1)
+        );
+      }
+
+      touchStartX = null;
+    },
+    {
+      passive: true,
+    }
+  );
+
+  document.addEventListener("click", (event) => {
+    const clickedImage = event.target.closest(
+      ".about-index-figure img"
+    );
+
+    if (!clickedImage) {
+      return;
+    }
+
+    const story =
+      clickedImage.closest(".about-story");
+
+    const entryId =
+      story?.dataset.entryId;
+
+    const entry =
+      entryId
+        ? entryById(entryId)
+        : null;
+
+    /*
+      Nodes:
+      use all photographs stored in the entry.images array.
+    */
+    if (entry?.images?.length) {
+      const currentImageUrl =
+        clickedImage.currentSrc ||
+        clickedImage.src;
+
+      let index =
+        entry.images.findIndex((image) => {
+          try {
+            return (
+              new URL(
+                image.src,
+                document.baseURI
+              ).href === currentImageUrl
+            );
+          } catch (_) {
+            return false;
+          }
+        });
+
+      if (index < 0) {
+        index = 0;
+      }
+
+      openLightbox(
+        entry.images,
+        index
+      );
+
+      return;
+    }
+
+    /*
+      Explore:
+      its content is stored directly in index.html.
+    */
+    openLightbox([
+      {
+        src:
+          clickedImage.currentSrc ||
+          clickedImage.src,
+
+        alt:
+          clickedImage.alt || "",
+      },
+    ]);
+  });
+
+  lightboxImage.addEventListener("dragstart", (event) => {
+    event.preventDefault();
+  });
+
+  lightboxImage.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+  });
+})();
