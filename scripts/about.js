@@ -1873,6 +1873,13 @@ function showView(view) {
   if (view === "origins") {
     renderOrigins(aboutView);
   }
+
+  aboutView.classList.remove("is-view-entering");
+
+  void aboutView.offsetWidth;
+
+  aboutView.classList.add("is-view-entering");
+
 }
 
 function getViewFromHash() {

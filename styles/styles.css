@@ -2237,3 +2237,19 @@ html.photo-lightbox-open body {
     display: none;
   }
 }
+
+.about-view.is-view-entering {
+  animation: about-view-switch-in 420ms cubic-bezier(.22, 1, .36, 1) both;
+}
+
+@keyframes about-view-switch-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
