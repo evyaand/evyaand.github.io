@@ -220,11 +220,13 @@ h1 {
 .section-kicker {
   margin: 0 auto 8px;
   text-align: center;
+
 }
 
 .logo-marquee {
   width: calc(100% + clamp(56px, 14vw, 224px));
   margin-left: calc(clamp(28px, 7vw, 112px) * -1);
+  margin-top: -30px;
   overflow: hidden;
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
   mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
@@ -1932,7 +1934,7 @@ html.photo-lightbox-open body {
   }
 
   .section-kicker {
-    margin-bottom: 5px;
+    margin-bottom: 0;
   }
 
   .logo-marquee {
