@@ -2320,6 +2320,50 @@ html.photo-lightbox-open body {
 
 }
 
+.site-back {
+  display: inline-flex;
+  width: max-content;
+  align-items: center;
+  gap: 8px;
+  color: #444;
+  font-size: 14px;
+  font-weight: 650;
+  letter-spacing: 0.015em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: none;
+  transition: color 150ms ease;
+}
+
+.site-back-arrow {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform 150ms ease;
+}
+
+.site-back:hover,
+.site-back:focus-visible {
+  color: var(--blue);
+  outline: 0;
+}
+
+.site-back:hover .site-back-arrow,
+.site-back:focus-visible .site-back-arrow {
+  transform: translateX(-3px);
+}
+
+@media (max-width: 650px) {
+  .site-back {
+    gap: 7px;
+    font-size: 13px;
+  }
+
+  .site-back-arrow {
+    font-size: 18px;
+  }
+}
+
 .about-view.is-view-entering {
   animation: about-view-switch-in 420ms cubic-bezier(.22, 1, .36, 1) both;
 }
