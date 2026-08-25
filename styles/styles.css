@@ -65,31 +65,34 @@ a {
 }
 
 .personal-monogram {
-  width: max-content;
-  margin: 0 auto 25px;
-  color: #202020;
-  font-size: 42px;
-  font-weight: 850;
-  letter-spacing: -.1em;
-  line-height: 1;
+  width: 60px;
+  aspect-ratio: 700 / 341;
+  margin: 0 auto 32px;
   transform-origin: 55% 65%;
   animation: personal-monogram-arrival 1.15s cubic-bezier(.22, 1, .36, 1) .18s both;
-  cursor: pointer;
+  cursor: default;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .personal-monogram-mark {
-  display: inline-block;
-  color: #202020;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   transform-origin: 55% 65%;
-}
-
-.personal-monogram-dot {
-  color: var(--blue);
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
 }
 
 .personal-monogram:hover .personal-monogram-mark {
   animation: personal-monogram-hover .65s ease-in-out;
 }
+
 
 h1 {
   margin: 0;
