@@ -2379,3 +2379,63 @@ html.photo-lightbox-open body {
     transform: translateY(0);
   }
 }
+
+.form-legal-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid rgba(51, 168, 230, 0.2);
+  border-radius: 10px;
+  background: rgba(51, 168, 230, 0.045);
+  color: #6d6d6d;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.form-legal-notice p {
+  margin: 0;
+}
+
+.form-legal-icon {
+  display: grid;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  place-items: center;
+  border: 1px solid var(--blue, #33a8e6);
+  border-radius: 50%;
+  color: var(--blue, #33a8e6);
+  font-size: 10px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+}
+
+.form-legal-notice a {
+  color: #454545;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(69, 69, 69, 0.3);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition:
+    color 150ms ease,
+    text-decoration-color 150ms ease;
+}
+
+.form-legal-notice a:hover,
+.form-legal-notice a:focus-visible {
+  color: var(--blue, #33a8e6);
+  text-decoration-color: currentColor;
+  outline: none;
+}
+
+@media (max-width: 650px) {
+  .form-legal-notice {
+    gap: 9px;
+    padding: 11px 12px;
+    font-size: 10.5px;
+  }
+}
