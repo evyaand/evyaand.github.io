@@ -156,13 +156,12 @@
 
           <div class="form-field">
             <label for="contact-message">Your message</label>
+
             <textarea id="contact-message" name="message" rows="7" placeholder="Write your message here"
               required></textarea>
           </div>
 
           <div class="form-legal-notice" role="note">
-            <span class="form-legal-icon" aria-hidden="true">i</span>
-
             <p>
               By submitting this form, you agree to the
               <a href="/terms/" target="_blank" rel="noopener">Terms of Use</a>
@@ -171,8 +170,13 @@
             </p>
           </div>
 
+          <div class="cf-turnstile turnstile-field" data-sitekey="0x4AAAAAAERcsjJnoqQ8sw1Q" data-theme="light"
+            data-size="flexible" data-appearance="interaction-only" data-action="contact-form"
+            aria-label="Spam protection"></div>
 
-          <button class="contact-submit" type="submit">Send message</button>
+          <button class="contact-submit" type="submit">
+            Send message
+          </button>
         </form>
       </section>
     </article>

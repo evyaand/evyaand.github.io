@@ -2439,3 +2439,46 @@ html.photo-lightbox-open body {
     font-size: 10.5px;
   }
 }
+
+.form-legal-notice {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 14px;
+  border-left: 3px solid var(--blue, #33a8e6);
+  border-radius: 0 8px 8px 0;
+  background: rgba(51, 168, 230, 0.055);
+  color: #686868;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.form-legal-notice p {
+  margin: 0;
+}
+
+.form-legal-notice a {
+  color: #444;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(68, 68, 68, 0.3);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition:
+    color 150ms ease,
+    text-decoration-color 150ms ease;
+}
+
+.form-legal-notice a:hover,
+.form-legal-notice a:focus-visible {
+  color: var(--blue, #33a8e6);
+  text-decoration-color: currentColor;
+  outline: none;
+}
+
+@media (max-width: 650px) {
+  .form-legal-notice {
+    padding: 11px 12px;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+}
