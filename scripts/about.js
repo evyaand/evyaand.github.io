@@ -586,19 +586,19 @@ const VIEW_COPY = {
   explore: {
     eyebrow: "01 / Explore",
     title: "about me; in short",
-    lede: "A short overview of the ideas and questions that shape my interests and work.",
+    lede: "  The ideas and questions that shape my perspective and work",
   },
 
   nodes: {
     eyebrow: "02 / Nodes",
-    title: "things that stayed",
-    lede: "Move through a living map of turning points. There isn’t always a clear connection between things, but they still shape the way I see and exist. It’s also a good way to get to know me better.",
+    title: "things that stay",
+    lede: "Move through a living collection of things, places and ideas that have stayed with me. There isn’t always a clear connection between them, but they still shape the way I see the world. It’s also a good way to get to know me better",
   },
 
   origins: {
     eyebrow: "03 / Origins",
-    title: "lines of (my) origin",
-    lede: "My DNA estimate is another way of looking at my family history and the paths that eventually led to me.",
+    title: "ethnicity estimate",
+    lede: "I took a MyHeritage DNA test. Here’s what it shows.",
   },
 };
 
