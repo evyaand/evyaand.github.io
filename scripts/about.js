@@ -673,6 +673,11 @@ function buildVisualEdges() {
 
   return edges;
 }
+window.EVYA_NODES = {
+  entries: INDEX_ENTRIES,
+  children: NODE_CHILDREN,
+  edges: buildVisualEdges(),
+};
 
 function storyMarkup(entry, compact = false) {
   const images = entry.images || [];
